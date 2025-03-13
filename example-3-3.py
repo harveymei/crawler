@@ -18,3 +18,11 @@ except urllib.error.URLError as error:
     # 按照示例代码，异常处理逻辑不完整，因此添加了以下代码
     else:
         print(f'发生其他错误： {error.reason}')
+
+
+"""
+/usr/bin/python3.12 /home/harveymei/PycharmProjects/crawler/example-3-3.py 
+发生其他错误： [Errno 101] Network is unreachable
+
+Process finished with exit code 0
+"""
