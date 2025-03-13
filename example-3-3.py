@@ -15,5 +15,6 @@ except urllib.error.URLError as error:
     # 判断异常原因，如果是超时，则执行超时处理逻辑
     if isinstance(error.reason, socket.timeout):
         print('当前任务已超时，即将执行下一个任务')
+    # 按照示例代码，异常处理逻辑不完整，因此添加了以下代码
     else:
         print(f'发生其他错误： {error.reason}')
