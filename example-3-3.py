@@ -26,3 +26,10 @@ except urllib.error.URLError as error:
 
 Process finished with exit code 0
 """
+
+"""
+模拟网络延迟（适用于 Linux 系统）
+   sudo tc qdisc add dev eth0 root netem delay 1000ms
+清除网络延迟：
+   sudo tc qdisc del dev eth0 root netem
+"""
