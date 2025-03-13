@@ -5,6 +5,7 @@
 import urllib.request
 
 url = 'https://www.python.org/'
+# 使用urlopen(）方法发送请求
 response = urllib.request.urlopen(url=url)
 print('响应代码为：', response.status)
 print('响应头所有信息为：', response.getheaders())
