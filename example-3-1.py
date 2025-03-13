@@ -1,3 +1,7 @@
+"""
+发送get请求
+"""
+
 import urllib.request
 
 url = 'https://www.python.org/'
