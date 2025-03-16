@@ -17,6 +17,8 @@ response = urllib.request.urlopen(r)
 
 # 实例化对象
 cookie = http.cookiejar.CookieJar()
+# 在 Python 的 urllib.request 模块中，HTTPCookieProcessor 是一个用于处理 HTTP Cookie 的处理器，
+# 常与 build_opener() 一起使用来管理 Cookie。
 # 生成cookie处理器
 # HTTPCookieProcessor 的核心作用是简化 Cookie 的管理和使用，帮助开发者轻松实现会话保持或用户认证等功能。
 # 创建一个HTTPCookieProcessor对象，用于管理cookie
