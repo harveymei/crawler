@@ -4,7 +4,7 @@ import http.cookiejar
 # import json
 # 返回不是json格式数据，所以此处引入的模块未使用
 
-url = 'https://lewo.uk/wp-login.php'
+url = 'https://example.uk/wp-login.php'
 data = bytes(urllib.parse.urlencode({'log':'harvey', 'pwd':'123465'}), encoding='utf-8')
 cookie_file = 'cookie.txt'
 cookie = http.cookiejar.LWPCookieJar(cookie_file)
